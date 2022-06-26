@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/*class FloatingButton extends StatelessWidget {
+class FloatingButton extends StatelessWidget {
   const FloatingButton({Key? key}) : super(key: key);
 
   @override
@@ -12,4 +12,4 @@ import 'package:flutter/material.dart';
       child: Icon(Icons.add),
     );
   }
-}*/
+}

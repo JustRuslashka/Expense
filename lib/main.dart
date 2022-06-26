@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
           children: [UserTransaction()],
         ),
       ),
-      //floatingActionButton: FloatingButton(), //Button in the
+      floatingActionButton: FloatingButton(), //Button in the
     );
   }
 }
