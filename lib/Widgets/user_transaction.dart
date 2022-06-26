@@ -37,7 +37,8 @@ class _UserTransactionState extends State<UserTransaction> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        NewTransaction(_addNewTransaction, null), //do not know what is null for
+        NewTransaction(
+            _addNewTransaction, _showAddCard), //do not know what is null for
         TransactionList(_userTransaction),
       ],
     );
