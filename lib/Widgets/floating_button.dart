@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './user_transaction.dart';
 
 class FloatingButton extends StatelessWidget {
   const FloatingButton({Key? key}) : super(key: key);
@@ -8,7 +9,7 @@ class FloatingButton extends StatelessWidget {
     return FloatingActionButton(
       tooltip: 'Add a new spending', //Check it out buddy
       backgroundColor: Colors.purple,
-      onPressed: () => {print('tapped')}, //to complete this function
+      onPressed: () => {}, //to complete this function
       child: Icon(Icons.add),
     );
   }
