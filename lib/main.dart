@@ -22,6 +22,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+void _showAddCard() {
+  bool addVisibility = true;
+  bool graphVisibility = false;
+}
+
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -36,7 +41,7 @@ class MyHomePage extends StatelessWidget {
           children: [UserTransaction()],
         ),
       ),
-      floatingActionButton: FloatingButton(), //Button in the
+      //floatingActionButton: FloatingButton(), //Button in the
     );
   }
 }
